@@ -1,13 +1,600 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>My Portfolio</title>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Gandhi | Cloud Computing Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
-  <h1>Hello! I'm Himanshu Gandhi</h1>
-  <p>Welcome to my portfolio website.</p>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo" data-aos="fade-right">
+                <h1>Himanshu<span>Gandhi</span></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#volunteer">Volunteer</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Hi, I'm <span>Himanshu Gandhi</span></h1>
+                <h2>Cloud Computing Professional</h2>
+                <p>Specializing in cloud architecture, cybersecurity, and data analytics</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn primary-btn">Contact Me</a>
+                    <a href="#projects" class="btn secondary-btn">View Projects</a>
+                </div>
+                <div class="social-icons">
+                    <aa href="https://github.com/himanshu3024" target="_blank" rel="noopener noreferrer" title="Visit my GitHub profile"><i class="fab fa-github"></i></a>
+                    <aa href="https://linkedin.com/in/himanshu-gandhi" target="_blank"><i class="fab fa-linkedin"></i></aa>
+                    <aa href="mailto:Gandhi111000@hotmail.com"><i class="fas fa-envelope"></i></aa>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <div class="hero-blob">
+                    <img src="/api/placeholder/500/500" alt="Himanshu Gandhi" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="/api/placeholder/400/400" alt="About Me">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <p>I'm a Cloud Computing professional with expertise in cloud architecture, cybersecurity, and data analytics. With over four years in sales and customer service, I excel in client relations and delivering results.</p>
+                    <p>Currently pursuing a Project Management Post Graduate Certificate, I've developed multiple projects including a Loan Health Dashboard for my Google Cloud Data Analytics Certificate. I'm proficient in Google Cloud Platform (GCP), Looker, and SQL, and eager to contribute to innovative cloud solutions.</p>
+                    <div class="core-competencies">
+                        <h3>Core Competencies</h3>
+                        <div class="competency-grid">
+                            <div class="competency-item"><i class="fas fa-cloud"></i> Cloud Computing</div>
+                            <div class="competency-item"><i class="fas fa-sitemap"></i> Cloud Architecture & Design</div>
+                            <div class="competency-item"><i class="fas fa-shield-alt"></i> Cloud Cybersecurity</div>
+                            <div class="competency-item"><i class="fas fa-chart-bar"></i> Data Visualization & Reporting</div>
+                            <div class="competency-item"><i class="fas fa-database"></i> Cloud Data Analysis</div>
+                            <div class="competency-item"><i class="fas fa-palette"></i> UX Design</div>
+                            <div class="competency-item"><i class="fas fa-bug"></i> Threat Detection & Response</div>
+                            <div class="competency-item"><i class="fas fa-code"></i> Front End Development</div>
+                            <div class="competency-item"><i class="fas fa-tasks"></i> Agile Methodologies</div>
+                            <div class="competency-item"><i class="fas fa-project-diagram"></i> Project Management</div>
+                            <div class="competency-item"><i class="fas fa-users"></i> Stakeholder Communication</div>
+                            <div class="competency-item"><i class="fas fa-exclamation-triangle"></i> Risk Management</div>
+                        </div>
+                    </div>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn primary-btn">Get In Touch</a>
+                        <a href="#" class="btn secondary-btn" id="resume-btn">Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>My Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skill-category" data-aos="fade-up">
+                    <div class="skill-header">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Computing</h3>
+                    </div>
+                    <div class="skill-details">
+                        <p>Experienced with Google Cloud Platform (GCP), proficient in using Cloud Security Command Center, Compute Engine, Cloud Storage, Firewall Management, Vulnerability Management, and Data Breach Recovery.</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-skill="GCP" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Cloud Security" data-value="85"></div>
+                            <div class="progress-bar" data-skill="Cloud Storage" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Firewall Management" data-value="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Front-End Development</h3>
+                    </div>
+                    <div class="skill-details">
+                        <p>Proficient in HTML5 and CSS3 for creating structured, semantic web pages and responsive web designs. Skilled in crafting intuitive and visually appealing user interfaces (UI).</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-skill="HTML5" data-value="95"></div>
+                            <div class="progress-bar" data-skill="CSS3" data-value="90"></div>
+                            <div class="progress-bar" data-skill="JavaScript" data-value="80"></div>
+                            <div class="progress-bar" data-skill="UI Design" data-value="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Data Analytics</h3>
+                    </div>
+                    <div class="skill-details">
+                        <p>Skilled in Data Visualization using tools like Tableau and Looker. Proficient in Data Querying with SQL and BigQuery for extracting, transforming, and analyzing large datasets.</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-skill="Tableau/Looker" data-value="85"></div>
+                            <div class="progress-bar" data-skill="SQL/BigQuery" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Excel/R" data-value="80"></div>
+                            <div class="progress-bar" data-skill="Statistical Analysis" data-value="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="skill-details">
+                        <p>Expertise in implementing Security Best Practices on GCP, focusing on Risk Management and Threat Detection. Capable of Threat Remediation and enhancing Network Security.</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-skill="Security Best Practices" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Risk Management" data-value="85"></div>
+                            <div class="progress-bar" data-skill="Threat Detection" data-value="80"></div>
+                            <div class="progress-bar" data-skill="Network Security" data-value="85"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>Project Management</h3>
+                    </div>
+                    <div class="skill-details">
+                        <p>Experienced in Project Planning and Scheduling, with strong Risk Management skills. Adept at Stakeholder Management and familiar with Agile Methodologies like Scrum and Kanban.</p>
+                        <div class="skill-progress">
+                            <div class="progress-bar" data-skill="Project Planning" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Risk Management" data-value="85"></div>
+                            <div class="progress-bar" data-skill="Stakeholder Management" data-value="90"></div>
+                            <div class="progress-bar" data-skill="Agile Methodologies" data-value="80"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>My Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-img">
+                        <img src="/api/placeholder/600/400" alt="Portfolio Website with Azure CI/CD Deployment">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Website with Azure CI/CD Deployment</h3>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Azure Static Web Apps</span>
+                            <span>GitHub Actions</span>
+                        </div>
+                        <p>Personal portfolio website leveraging Azure Static Web Apps with automated CI/CD pipeline for continuous deployment.</p>
+                        <ul class="project-highlights">
+                            <li>Developed and deployed a personal portfolio website using Azure Static Web Apps.</li>
+                            <li>Configured a CI/CD pipeline with GitHub Actions to automate deployments on code commits.</li>
+                            <li>Integrated Git version control and resolved Git push/pull conflicts during deployment.</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn secondary-btn"><i class="fab fa-github"></i> View Code</a>
+                            <a href="#" class="btn primary-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img">
+                        <img src="/api/placeholder/600/400" alt="Prismatic Feedback Journey">
+                    </div>
+                    <div class="project-content">
+                        <h3>Prismatic Feedback Journey</h3>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>Azure</span>
+                            <span>GitHub</span>
+                        </div>
+                        <p>Full-stack feedback management system to collect, store, and visualize user feedback using secure cloud-based practices.</p>
+                        <ul class="project-highlights">
+                            <li>Built with modern web technologies (React/Node.js/Azure)</li>
+                            <li>Emphasized secure configuration using environment variables</li>
+                            <li>Focused on usability, data integrity, and cloud deployment readiness</li>
+                            <li>Implemented a clean UI for feedback submission and integrated real-time data handling</li>
+                            <li>Followed GitHub's secret scanning and push protection standards to ensure code security</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/himanshu3024/Prismatic-Feedback-Journey" class="btn secondary-btn"><i class="fab fa-github"></i> View Code</a>
+                            <a href="#" class="btn primary-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img">
+                        <img src="/api/placeholder/600/400" alt="Loan Health Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Loan Health Dashboard</h3>
+                        <div class="project-tech">
+                            <span>Google Cloud Platform</span>
+                            <span>Looker</span>
+                            <span>LookML</span>
+                            <span>SQL</span>
+                        </div>
+                        <p>Comprehensive data dashboard using Looker for visualizing key metrics like outstanding loans and loan status distribution.</p>
+                        <ul class="project-highlights">
+                            <li>Developed a comprehensive data dashboard using Looker for the Google Cloud Data Analytics Certificate</li>
+                            <li>Integrated interactive visualizations with dynamic cross-filtering</li>
+                            <li>Configured automatic data refresh rates for accuracy</li>
+                            <li>Utilized Looker, Google Cloud Platform (GCP), and LookML to deliver critical insights for decision-making</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="#" class="btn secondary-btn"><i class="fab fa-github"></i> View Code</a>
+                            <a href="#" class="btn primary-btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Education & Certifications</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="education-content">
+                <div class="timeline" data-aos="fade-up">
+                    <!-- Education -->
+                    <div class="timeline-header">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    </div>
+                    <div class="timeline-container left">
+                        <div class="timeline-content">
+                            <h3>Project Management Post Graduate Certificate</h3>
+                            <h4>Fleming College, Toronto, ON</h4>
+                            <p class="timeline-date">May 2024 – Dec 2024</p>
+                            <p>Currently pursuing a one-year specialized program in Project Management.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-container right">
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science</h3>
+                            <h4>University of Rajasthan, Jaipur, INDIA</h4>
+                            <p class="timeline-date">May 2015 – Jun 2019</p>
+                            <p>Majored in Physics, Chemistry & Mathematics</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Certifications -->
+                    <div class="timeline-header">
+                        <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    </div>
+                    <div class="certifications-grid">
+                        <div class="cert-item" data-aos="fade-up">
+                            <div class="cert-logo">
+                                <i class="fab fa-ibm"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>IBM Front-End Developer Professional Certificate</h4>
+                                <p>In Progress</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="cert-logo">
+                                <i class="fab fa-microsoft"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Microsoft UX Design Professional Certificate</h4>
+                                <p>September 2024</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="cert-logo">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Google Cloud Cybersecurity Professional Certificate</h4>
+                                <p>September 2024</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="cert-logo">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Google Cloud Data Analytics Professional Certificate</h4>
+                                <p>August 2024</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="cert-logo">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Google Project Management Certificate</h4>
+                                <p>August 2024</p>
+                            </div>
+                        </div>
+                        <div class="cert-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="cert-logo">
+                                <i class="fab fa-google"></i>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Google Data Analytics Professional Certificate</h4>
+                                <p>July 2024</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Achievements -->
+                    <div class="timeline-header">
+                        <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                    </div>
+                    <div class="achievements-list">
+                        <div class="achievement-item" data-aos="fade-up">
+                            <div class="achievement-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="achievement-details">
+                                <h4>Academic Excellence Bursary</h4>
+                                <p>Awarded $1,000 CAD Academic Excellence Bursary at Fleming College for achieving a 93% score in Semester 1 of Project Management Post-Graduate Program.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Section -->
+    <section id="volunteer" class="volunteer">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Volunteer Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="volunteer-grid">
+                <div class="volunteer-card" data-aos="fade-up">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="volunteer-content">
+                        <h3>City of Toronto (Parks, Forestry & Recreation)</h3>
+                        <h4>Volunteer – Summer Camp Support</h4>
+                        <p class="volunteer-period">June 2024 – Present</p>
+                        <p class="volunteer-location">Smithfield Middle School</p>
+                        <ul>
+                            <li>Assisted with the setup and preparation of school facilities for summer camp programs during the break.</li>
+                            <li>Registered for participation in the upcoming holiday fests.</li>
+                            <li>Ongoing, flexible volunteer role, offering availability as needed for various school events and activities.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="volunteer-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-book-reader"></i>
+                    </div>
+                    <div class="volunteer-content">
+                        <h3>Toronto Public Library</h3>
+                        <h4>Volunteer – Leading to Reading Program</h4>
+                        <p class="volunteer-period">June 2024 – Present</p>
+                        <p class="volunteer-location">Albion Branch</p>
+                        <ul>
+                            <li>Engaged in one-on-one mentoring with a student to encourage and foster the importance of traditional reading over digital alternatives.</li>
+                            <li>Committed to a weekly session, dedicating 1 hour per week to enhance reading skills and instill a love for books in children.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="volunteer-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-theater-masks"></i>
+                    </div>
+                    <div class="volunteer-content">
+                        <h3>City of Toronto (City Cultural Events)</h3>
+                        <h4>Volunteer – Cultural Events</h4>
+                        <p class="volunteer-period">September 2024 – Present</p>
+                        <p class="volunteer-location">City Committee Hall</p>
+                        <ul>
+                            <li>Contributed 18 hours to the Nuit Blanche event, assisting with event coordination and logistics.</li>
+                            <li>Registered as a recurring volunteer for major city events such as Canada Day, Doors Open, Cavalcade of Lights, and New Year's Eve.</li>
+                            <li>Consistently available for participation in future cultural events organized by the City of Toronto.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="volunteer-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="volunteer-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <div class="volunteer-content">
+                        <h3>City of Toronto (Parks, Forestry & Recreation)</h3>
+                        <h4>Urban Forestry – Tree Planting Stewardship</h4>
+                        <p class="volunteer-period">October 2024 – Present</p>
+                        <ul>
+                            <li>Participated in community tree planting initiatives across Toronto parks, contributing to environmental sustainability efforts.</li>
+                            <li>Planted 4-5 trees at Whitehaven Park during the 2024, October 19th event and contributed similarly at Marie Curtis Park on October 27th, 2024.</li>
+                            <li>Actively awaiting upcoming tree planting events to continue supporting Toronto's urban forestry initiatives.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p><a href="mailto:Gandhi111000@hotmail.com">Gandhi111000@hotmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+14372673965">(437) 267-3965</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Location</h3>
+                            <p>Toronto, ON, Canada</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h3>Languages</h3>
+                            <p>English, French, Hindi</p>
+                        </div>
+                    </div>
+                    <div class="social-icons-large">
+                        <aa href="https://github.com/himanshu3024" target="_blank"><i class="fab fa-github"></i></aa>
+                        <aa href="https://linkedin.com/in/himanshu-gandhi" target="_blank"><i class="fab fa-linkedin"></i></aa>
+                        <aa href="mailto:Gandhi111000@hotmail.com"><i class="fas fa-envelope"></i></aa>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Himanshu<span>Gandhi</span></h2>
+                    <p>Cloud Computing Professional</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#volunteer">Volunteer</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect With Me</h3>
+                    <div class="social-icons">
+                        <aa href="https://github.com/himanshu3024" target="_blank"><i class="fab fa-github"></i></aa>
+                        <aa href="https://linkedin.com/in/himanshu-gandhi" target="_blank"><i class="fab fa-linkedin"></i></aa>
+                        <aa href="mailto:Gandhi111000@hotmail.com"><i class="fas fa-envelope"></i></aa>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Himanshu Gandhi. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <aa href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </aa>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
 </body>
-</>
+</html>
