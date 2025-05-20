@@ -24,6 +24,6 @@ This is my personal portfolio website built with HTML/CSS/JavaScript and deploye
 
 ## 🌍 Live Demo
 
-🔗 [View Portfolio Website]([https://your-site-url](https://jolly-desert-01de2c310.6.azurestaticapps.net))
+🔗 [View Portfolio Website](https://jolly-desert-01de2c310.6.azurestaticapps.net)
 
 
