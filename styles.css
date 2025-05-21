@@ -1387,15 +1387,22 @@ section:nth-child(even) {
     }
 
     .about-content {
-        flex-direction: column;
-        gap: 2rem;
+    display: flex;         /* make container flexbox */
+    flex-direction: row;   /* horizontal layout */
+    gap: 2rem;             /* space between image and text */
+    align-items: center;   /* vertically center items */
     }
 
-    .about-image,
-    .about-text {
-        flex: none;
-        width: 100%;
+    .about-image {
+        flex: none;            /* do not grow or shrink */
+        width: 150px;          /* fixed width for image container */
     }
+
+    .about-text {
+        flex: 1;               /* take remaining space */
+        width: auto;           /* override width: 100% */
+    }
+
 
     .contact-content {
         flex-direction: column;
