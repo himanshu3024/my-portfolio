@@ -363,75 +363,136 @@ section:nth-child(even) {
 }
 
 /* ===== ABOUT SECTION ===== */
+.about {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 0; /* Remove bottom margin to align with image */
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 60px;
+    height: 4px;
+    background-color: #007bff;
+    margin: 0 auto 20px;
+}
+
 .about-content {
     display: flex;
-    align-items: center;
-    gap: 4rem;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .about-image {
     flex: 1;
+    text-align: center;
 }
 
-.about-image img {
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-shadow);
+.about-image-content {
+    max-width: 100%; /* Reset to 100% to avoid overflow */
+    height: auto;
+    width: 400px; /* Increased width further for larger size */
+    height: 600px; /* Increased height further for larger size */
+    object-fit: cover; /* Maintain aspect ratio while filling the space */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Enable positioning */
+    left: -50px; /* Move image 50px to the left */
 }
 
 .about-text {
-    flex: 1.5;
+    flex: 2;
+    padding-top: 0; /* Align text with image top */
 }
 
 .about-text p {
-    margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: var(--text-color);
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
 }
 
 .core-competencies h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: var(--secondary-color);
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 .competency-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-bottom: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
 }
 
 .competency-item {
-    background-color: white;
-    padding: 1rem;
-    border-radius: var(--border-radius);
-    box-shadow: var(--card-shadow);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: var(--transition);
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
 .competency-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-    background-color: var(--primary-color);
-    color: white;
 }
 
 .competency-item i {
-    color: var(--primary-color);
-}
-
-.competency-item:hover i {
-    color: white;
+    display: block;
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
 }
 
 .about-cta {
-    display: flex;
-    gap: 1rem;
+    margin-top: 30px;
+    text-align: center;
 }
 
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+.secondary-btn {
+    background-color: #6c757d;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.secondary-btn:hover {
+    background-color: #545b62;
+}
 /* ===== SKILLS SECTION ===== */
 .skills-content {
     display: grid;
