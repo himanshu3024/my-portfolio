@@ -493,6 +493,87 @@ section:nth-child(even) {
 .secondary-btn:hover {
     background-color: #545b62;
 }
+
+/* Media queries for responsive design */
+@media (max-width: 992px) {
+    .about-content {
+        gap: 30px;
+    }
+    
+    .about-image-content {
+        width: 350px;
+        height: 500px;
+        left: -30px;
+    }
+}
+
+/* Tablet View */
+@media (max-width: 768px) {
+    .about-content {
+        gap: 20px;
+    }
+    
+    .about-image-content {
+        width: 300px;
+        height: 450px;
+        left: -20px;
+    }
+    
+    .section-header h2 {
+        font-size: 2.2rem;
+    }
+    
+    .about-text p {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 576px) {
+    .about-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .about-image {
+        flex: none;
+        width: 100%;
+    }
+    
+    .about-image-content {
+        width: 85%;
+        height: auto;
+        max-height: 450px;
+        position: static;
+        left: 0;
+        margin: 0 auto;
+    }
+    
+    .about-text {
+        flex: none;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .section-header {
+        margin-bottom: 20px;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .competency-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .secondary-btn {
+        margin-left: 0;
+        margin-top: 10px;
+        display: inline-block;
+    }
+}
 /* ===== SKILLS SECTION ===== */
 .skills-content {
     display: grid;
